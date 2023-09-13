@@ -1,0 +1,119 @@
+﻿.tooltip {
+    position: absolute;
+    z-index: 1030;
+    display: block;
+    visibility: visible;
+    font-size: 12px;
+    line-height: 1.4;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 10px;
+}
+
+    .tooltip.in {
+        /* opacity: .9; */
+        filter: alpha(opacity=90)
+    }
+
+    .tooltip.top {
+        margin-top: -3px;
+        padding: 5px 0
+    }
+
+    .tooltip.right {
+        margin-left: 3px;
+        padding: 0 5px
+    }
+
+    .tooltip.bottom {
+        margin-top: 3px;
+        padding: 5px 0
+    }
+
+    .tooltip.left {
+        margin-left: -3px;
+        padding: 0 5px
+    }
+
+.tooltip-inner {
+    max-width: 200px;
+    padding: 3px 8px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background-color: #F04D24;
+    border-radius: 4px
+}
+
+.tooltip-arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    position: absolute;
+    top: -14px;
+    transform: translate(0px, 7px);
+    left: -5px;
+}
+
+.tooltip.top .tooltip-arrow {
+    bottom: 0;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px 5px 0;
+    border-top-color: #F04D24;
+}
+
+.tooltip.top-left .tooltip-arrow {
+    bottom: 0;
+    left: 5px;
+    border-width: 5px 5px 0;
+    border-top-color: #F04D24;
+}
+
+.tooltip.top-right .tooltip-arrow {
+    bottom: 0;
+    right: 5px;
+    border-width: 5px 5px 0;
+    border-top-color: #F04D24;
+    
+}
+
+.tooltip .tooltip-arrow {
+    top: 50%;
+    left: -5px;
+    margin-top: -1px;
+    border-width: 5px 5px 5px 0;
+    border-right-color: #F04D24;
+}
+
+.tooltip.left .tooltip-arrow {
+    top: 50%;
+    right: 0;
+    margin-top: -5px;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #F04D24;
+}
+
+.tooltip.bottom .tooltip-arrow {
+    top: 0;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 0 5px 5px;
+    border-bottom-color: #F04D24;
+}
+
+.tooltip.bottom-left .tooltip-arrow {
+    top: 0;
+    left: 5px;
+    border-width: 0 5px 5px;
+    border-bottom-color: #F04D24;
+}
+
+.tooltip.bottom-right .tooltip-arrow {
+    top: 0;
+    right: 5px;
+    border-width: 0 5px 5px;
+    border-bottom-color: #F04D24;
+}

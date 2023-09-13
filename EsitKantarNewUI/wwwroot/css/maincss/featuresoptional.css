@@ -1,0 +1,16 @@
+﻿.imgP {
+    margin: 1% auto 2% auto;
+    vertical-align: middle;
+    width: 28%;
+    float: left;
+}
+
+.imgH {
+    height: 166px;
+    display: block;
+    margin: auto;
+}
+
+.textPosition{
+    text-align:left;
+}

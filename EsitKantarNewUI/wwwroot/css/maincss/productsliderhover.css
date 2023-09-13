@@ -1,0 +1,296 @@
+﻿.transitionYazi {
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s opacity, .5s visibility;
+    transition-delay: 0.5s;
+}
+
+.transitionYazi2 {
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s opacity, .5s visibility;
+    transition-delay: 1.0s;
+}
+
+.transitionYazi3 {
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s opacity, .5s visibility;
+    transition-delay: 1.5s;
+}
+
+.transitionYazi4 {
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s opacity, .5s visibility;
+    transition-delay: 1.9s;
+}
+.transitionYazi5 {
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s opacity, .5s visibility;
+    transition-delay: 0.1s;
+}
+.transitionYazi6 {
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s opacity, .5s visibility;
+    transition-delay: 0.3s;
+}
+
+.transitionImgHover:hover .transitionYazi {
+    opacity: 1;
+    visibility: visible;
+}
+
+.transitionImgHover:hover .transitionYazi2 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.transitionImgHover:hover .transitionYazi3 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.transitionImgHover:hover .transitionYazi4 {
+    opacity: 1;
+    visibility: visible;
+}
+.transitionImgHover:hover .transitionYazi5 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.transitionImgHover:hover .transitionYazi6 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.icon {
+    font-size: 12px;
+    color: #F04E23;
+    margin-right: 6px;
+}
+
+
+.sliderYazi {
+    width: auto;
+    float: right;
+    margin-top: -5%;
+    margin-left: 41%;
+}
+
+.sliderYazi2 {
+    width: auto;
+    float: right;
+    margin-top: -2%;
+    margin-left: 26%;
+}
+
+.sliderYazi3 {
+    width: auto;
+    float: right;
+    margin-top: 10%;
+    margin-left: 32%;
+}
+
+.sliderYazi4 {
+    width: auto;
+    float: right;
+    margin-top: -2%;
+    margin-left: 69%;
+}
+
+
+@media only all and (max-width: 2400px) and (max-height:1201px) {
+    .sliderYazi {
+        margin-top: -4%;
+        margin-left: 43%;
+    }
+
+    .sliderYazi2 {
+        margin-top: -1%;
+        margin-left: 31%;
+    }
+
+    .sliderYazi3 {
+        margin-top: 8%;
+        margin-left: 36%;
+    }
+
+    .sliderYazi4 {
+        margin-top: -1%;
+        margin-left: 65%;
+    }
+
+
+    @media only all and (max-width: 1440px) and (max-height: 1200px) {
+        .sliderYazi {
+            margin-top: -2%;
+            margin-left: 45%;
+        }
+
+        .sliderYazi2 {
+            margin-top: 0%;
+            margin-left: 34%;
+        }
+
+        .sliderYazi3 {
+            margin-top: 6%;
+            margin-left: 42%;
+        }
+
+        .sliderYazi4 {
+            margin-top: -1%;
+            margin-left: 65%;
+        }
+    }
+}
+
+.hippoASliderYazi {
+    width: auto;
+    float: right;
+    margin-top: 26%;
+    margin-left: 26%;
+}
+
+.hippoASliderYazi2 {
+    width: auto;
+    float: right;
+    margin-top: 14%;
+    margin-left: 48%;
+    transform: rotate(-19deg);
+}
+
+.hippoASliderYazi3 {
+    width: auto;
+    float: right;
+    margin-top: 21.5%;
+    margin-left: 45%;
+    transform: rotate(-23deg);
+}
+
+.hippoASliderYazi4 {
+    width: auto;
+    float: right;
+    margin-top: 29%;
+    margin-left: 37%;
+}
+
+
+@media only all and (max-width: 2400px) and (max-height:1201px) {
+    .hippoASliderYazi {
+        margin-top: 23.7%;
+        margin-left: 33%;
+    }
+
+    .hippoASliderYazi2 {
+        margin-top: 13%;
+        margin-left: 53%;
+    }
+
+    .hippoASliderYazi3 {
+        margin-top: 21%;
+        margin-left: 43%;
+        transform: rotate(-23deg);
+    }
+
+    .hippoASliderYazi4 {
+        margin-top: 26%;
+        margin-left: 41%;
+    }
+
+
+    @media only all and (max-width: 1440px) and (max-height: 1200px) {
+        .hippoASliderYazi {
+            margin-top: 22%;
+            margin-left: 38%;
+        }
+
+        .hippoASliderYazi2 {
+            margin-top: 14%;
+            margin-left: 52%;
+            font-size:14px;
+        }
+
+        .hippoASliderYazi3 {
+            margin-top: 19%;
+            margin-left: 48%;
+            font-size:14px;
+        }
+
+        .hippoASliderYazi4 {
+            margin-top: 25%;
+            margin-left: 43%;
+            font-size:14px;
+        }
+    }
+}
+
+.dinoSliderYazi {
+    width: auto;
+    float: right;
+    margin-top: 12%;
+    margin-left: 27%;
+    transform: rotate(-22deg);
+}
+
+.dinoSliderYazi2 {
+    width: auto;
+    float: right;
+    margin-top: 0%;
+    margin-left: 58%;
+    transform: rotate(-21deg);
+}
+
+.dinoSliderYazi3 {
+    width: auto;
+    float: right;
+    margin-top: 19.5%;
+    margin-left: 27%;
+    transform: rotate(-23deg);
+}
+
+
+@media only all and (max-width: 2400px) and (max-height:1201px) {
+    .dinoSliderYazi {
+        margin-top: 13.7%;
+        margin-left: 33%;
+    }
+
+    .dinoSliderYazi2 {
+        margin-top: 6%;
+        margin-left: 53%;
+    }
+
+    .dinoSliderYazi3 {
+        margin-top: 20%;
+        margin-left: 30%;
+        transform: rotate(-23deg);
+    }
+
+
+    @media only all and (max-width: 1440px) and (max-height: 1200px) {
+        .dinoSliderYazi {
+            margin-top: 16%;
+            margin-left: 31%;
+        }
+
+        .dinoSliderYazi2 {
+            margin-top: 8%;
+            margin-left: 52%;
+            font-size: 14px;
+        }
+
+        .dinoSliderYazi3 {
+            margin-top: 20%;
+            margin-left: 35%;
+            font-size: 13px;
+        }
+    }
+}
+section span{
+    font-weight:bold;
+    color:black;
+}

@@ -1,0 +1,147 @@
+﻿@model List<KantarCore.Entities.Dto.MailDetailDto>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<head>
+    <title>@Localizer["Title"]</title>
+</head>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3009.271417647744!2d29.267439315415086!3d41.04119327929749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cad23701031fdd%3A0xb3950fa0a103c0ba!2sEsit%20Kantar!5e0!3m2!1str!2str!4v1650636678620!5m2!1str!2str" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<!-- Blurb minimal-->
+<section class="section section-md bg-default">
+    <div class="container">
+        <div class="row row-40">
+            <div class="col-sm-6 col-md-4">
+                <div class="box-lined">
+                    <div class="box-lined-body">
+                        <h6 class="box-lined-title">@Localizer["EmailTelefon"]</h6>
+                        <ul class="box-lined-list text-black">
+                            <li><a class="big link-default" href="mailto:esit@esit.com.tr">esit@esit.com.tr</a></li>
+                            <li><a class="big link-default" href="tel:#">+90 216 585 18 18</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="box-lined">
+                    <div class="box-lined-body">
+                        <h6 class="box-lined-title">@Localizer["Adres"]</h6>
+                        <ul class="box-lined-list text-black">
+                            <li class="big">Nişantepe Mahallesi Gelin Çiçeği Sokak No:36 Çekmeköy 34794 İstanbul TR</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <div class="box-lined">
+                    <div class="box-lined-body">
+                        <h6 class="box-lined-title">@Localizer["SosyalMedya"]</h6>
+                        <ul class="list-inline list-inline-sm">
+                            <li><a class="contacticon icon icon-sm icon-bordered link-default mdi mdi-facebook" href="https://www.facebook.com/EsitElektronik/"></a></li>
+                            <li><a class="contacticon icon icon-sm icon-bordered link-default mdi mdi-instagram" href="https://www.instagram.com/esitelektronik/"></a></li>
+                            <li><a class="contacticon icon icon-sm icon-bordered link-default mdi mdi-youtube-play" href="https://www.youtube.com/channel/UC_Wo7NXOpTymTqlm-JPiZGA"></a></li>
+                            <li><a class="contacticon icon icon-sm icon-bordered link-default mdi mdi-twitter" href="https://twitter.com/esitelectronic"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="box-lined">
+                    <div class="box-lined-body">
+                        <h6 class="box-lined-title">@Localizer["İletisim"]</h6>
+                        <ul class="box-lined-list text-black">
+                            @Localizer["İletisimYonlendir"]
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Get in touch with us-->
+<section class="section section-md bg-default">
+    <div class="container">
+        <h4 style="color:#EF4123;">@Localizer["TeklifAl"]</h4>
+        <p class="big big mb-4 mt-3">
+            @Localizer["Aciklama"]
+        </p>
+        <p>
+
+        </p>
+        <!-- RD Mailform-->
+
+
+
+
+        <div class="row row-50">
+
+            <div class="col-lg-4">
+                <div class="form-wrap form-wrap-icon">
+                    <div class="form-icon mdi mdi-account-outline"></div>
+                    <input id="AdSoyad" type="text" class="form-control" placeholder="@Localizer["AdSoyad"].Value" value="" />
+
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="form-wrap form-wrap-icon">
+                    <div class="form-icon mdi mdi-email-outline"></div>
+                    <input id="Email" type="text" class="form-control" placeholder="E-Mail" value="" />
+
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="form-wrap form-wrap-icon">
+                    <div class="form-icon mdi mdi-phone"></div>
+                    <input id="TelNo" type="text" class="form-control" placeholder="@Localizer["Telefon"].Value" value="" />
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5 mt-1" style="margin: auto; height: 5%; background-color: #f3f0f0; height:73px;">
+                <div class="form-wrap form-wrap-icon">
+                    <h6 style="color: #877a7a; position: absolute; margin-top: 5%; margin-left: 14%;">@Localizer["Urunler"]</h6>
+                    <select style="float: left; margin-top: 5%; margin-left: 30%;" class="form-select form-select-sm" aria-label=".form-select-sm example">
+                        @foreach (var item in Model)
+                        {
+                            if (item.LanguageName == @Thread.CurrentThread.CurrentUICulture.Name)
+                            {
+                                <option id="ProductName">@item.ProductName</option>
+                            }
+
+                        }
+
+                    </select>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="form-wrap form-wrap-icon">
+                    <div class="form-icon mdi mdi-message-outline"></div>
+                    <textarea class="form-control" id="MailIcerik" name="message" placeholder="@Localizer["Mesaj"].Value" value=""></textarea>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <span id="calculator" class="calculator"></span>
+                <br />
+                <i style="font-size:11px;">@Localizer["Dogrulama"].Value</i>
+                <input type="text" id="sayi" class="form-control" />
+            </div>
+            <div id="sendMailDiv" class="col-md-4 col-lg-12">
+                <button class="button button-default sendMail">@Localizer["Gonder"].Value</button>
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+    </div>
+
+</section>
+
+
+@section Scripts{
+    <script src="~/Javascript/Post/MailPost.js"></script>
+}

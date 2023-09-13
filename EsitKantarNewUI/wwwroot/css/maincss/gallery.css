@@ -1,0 +1,46 @@
+﻿.portfolio-menu {
+    text-align: center;
+}
+
+.buttondiv .buttonShow {
+    display: inline-block;
+    margin: 5px;
+    list-style: none;
+    padding: 10px 15px;
+    border-color: tomato;
+    cursor: pointer;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition = all .5 ease;
+    -o-transition = all .5 ease;
+    transition = all .5s ease;
+    background-color: #EF4123;
+    color: #ffffff;
+}
+
+    .buttondiv .buttonShow:hover {
+        background-color: black;
+        color: lemonchiffon;
+    }
+
+.portfolio-item {
+    width: 100%;
+}
+
+.grid .item {
+    width: 303px;
+    float: left;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.grid {
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+    .grid img {
+        height: 231px;
+    }

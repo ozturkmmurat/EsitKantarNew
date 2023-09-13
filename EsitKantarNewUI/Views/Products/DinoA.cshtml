@@ -1,0 +1,190 @@
+﻿@model List<Entities.Dto.ProductDetailDto>
+@{
+    ViewData["Title"] = "DinoA";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+<head>
+    <title>@Localizer["Title"]</title>
+</head>
+<a href="https://www.esit.com.tr/tr/tasit_kantarlari/dino_a_celik_platformlu_cukurlu_kantar_/urun/1560">
+    <section class="breadcrumbs-custom bg-image context-dark transitionImgHover HippoImg " style="background-image: url(../../Uploads/Images/ProductDinoSlider.jpg); ">
+        <div class="container">
+            <div>
+                <ul typeof="list">
+                    <li class="transitionYazi5 liText" style="color:black;">
+                        <i class="fa-solid fa-circle transitionYazi5  liIcon "></i>@Localizer["SliderYazi"]
+                    </li>
+                    <li class="transitionYazi liText" style="color:black;">
+                        <i class="fa-solid fa-circle transitionYazi  liIcon "></i>@Localizer["SliderYazi2"]
+                    </li>
+                    <li class="transitionYazi2 liText" style="color:black;">
+                        <i class="fa-solid fa-circle transitionYazi2  liIcon "></i>@Localizer["SliderYazi3"]
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <h3 class="breadcrumbs-custom-title imgFont">HİPPO A</h3>
+    </section>
+</a>
+<div>
+    <h3 class="breadcrumbs-custom-title imgFontTitle">DİNO A</h3>
+</div>
+<!-- Blurb minimal-->
+
+
+<section class="section section-lg-2 bg-default">
+    <div class="container">
+        <div class="row row-40 justify-content-between">
+            <div class="col-lg-8">
+                <h4 class="custom-title">
+                    @Localizer["EsitCelik"]
+                </h4>
+                <p class="big offset-top">
+                    @Localizer["Aciklama"]
+                </p>
+                <p class="big">
+                    @Localizer["Aciklama2"]
+                </p>
+                <p class="big">
+                    @Localizer["Aciklama3"]
+
+                </p>
+                <div class="img-wrap-1">
+                    <img src="~/Uploads/Images/HI-PROFILE-TIR.jpg" alt="" width="650" height="325" />
+                </div>
+
+            </div>
+            <div class="col-lg-4">
+                <div class="row no-gutters">
+                    <div class="col-sm-6 col-lg-12">
+                        <div class="box-team rightImg">
+                            <img src="~/img/Dino.jpg" alt="" width="390" height="332" />
+                            <div class="meta">
+                                <div class="heading-6 title">@Localizer["FotografBaslik"]</div>
+                                <p class="position">@Localizer["FotografYazi"]</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-12">
+                        <div class="box-team rightImg">
+                            <img src="~/img/Dino2.jpg" alt="" width="390" height="332" />
+                            <div class="meta">
+                                <div class="heading-6 title">@Localizer["FotografBaslik"]</div>
+                                <p class="position">@Localizer["FotografYazi2"]</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-12">
+                        <div class="box-team rightImg">
+                            <img src="~/img/Dino3.jpg" alt="" width="390" height="332" />
+                            <div class="meta">
+                                <div class="heading-6 title">@Localizer["FotografBaslik"]</div>
+                                <p class="position">@Localizer["FotografYazi3"]</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="hippol-section" class="col-md-12" style="margin-top:10px; min-height:542px; min-width:300px; margin-left:-15px; text-align:justify;">
+            <article id="giris" class="girisStyle">
+
+                <div style="width:100%; margin:0 auto; margin-bottom:15px;min-height:100px;">
+                    <div style="margin-bottom:15px;min-height:100px; ">
+                        <h1 class="urunbaslikh1">DİNO-A</h1><br />
+                        <h2 class="urunaciklamah2">@Localizer["AkordionYazi"]</h2>
+                    </div>
+                </div>
+
+                <div class="list-group acordionMenu" style="position:relative;">
+                    <span id="hlozel" class="list-group-item active2"><i id="hozelicon" class="fa fa-check-circle" aria-hidden="true"></i> <span class="basliklar hidden-xs">@Localizer["Ozellikler"]</span><span class="mbasliklar visible-xs"></span></span>
+                    <span id="hlop" class="list-group-item opasite"><i id="hopicon" class="fa fa-minus-circle" aria-hidden="true"></i> <span class="basliklar hidden-xs">@Localizer["Opsiyonlar"]</span><span class="mbasliklar visible-xs"></span></span>
+                </div>
+            </article>
+
+            <article id="hlozellikler" class="girisStyle">
+                <table class="table">
+                    <thead>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="row row-40 justify-content-between">
+                                    <h3 class="custom-title">@Localizer["Ozellikler"]</h3>
+                                    <div class="row row-30 row-xxl-55" style="margin-bottom:0px;">
+                                        @foreach (var item in Model)
+                                        {
+                                            @if (item.FeaturesDescription != null && item.LanguageName == @Thread.CurrentThread.CurrentUICulture.Name)
+                                            {<div class="col-xl-12 " style="margin-bottom:0px;">
+                                                    <a href=@item.Url target="_blank">
+                                                        <p class="imgP">
+                                                            <img class="imgH" src="~/Uploads/Images/@item.ImgLink" />
+                                                        </p>
+                                                    </a>
+
+                                                    <p class="blurb-minimal-exeption ozelliktext">
+                                                        <h5 class="blurb-minimal-title textPosition">
+                                                            @item.FeaturesTitle
+                                                        </h5>
+
+                                                    </p>
+                                                    <p class="textPosition">@item.FeaturesDescription</p>
+                                                </div>
+                                            }
+                                        }
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+
+
+            <article id="hlopsiyonlar" class="girisStyle">
+                <table class="table">
+                    <thead>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+
+                                <div class="row row-40 justify-content-between">
+                                    <h3 class="custom-title">@Localizer["Opsiyonlar"]</h3>
+                                    <div class="row row-30 row-xxl-55" style="margin-bottom:0px;">
+                                        @foreach (var item in Model)
+                                        {
+                                            @if (item.OptionalDescription != null && item.LanguageName == @Thread.CurrentThread.CurrentUICulture.Name)
+                                            {<div class="col-xl-12 " style="margin-bottom:0px;">
+                                                    <a>
+                                                        <p class="imgP">
+                                                            <img class="imgH" src="~/Uploads/Images/@item.ImgLink" />
+                                                        </p>
+                                                    </a>
+
+                                                    <p class="blurb-minimal-exeption ozelliktext">
+                                                        <h5 class="blurb-minimal-title textPosition">
+                                                            @item.OptionalTitle
+                                                        </h5>
+
+                                                    </p>
+                                                    <p class="textPosition">@item.OptionalDescription</p>
+                                                </div>
+                                            }
+                                        }
+                                    </div>
+                                </div>
+
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br />
+            </article>
+        </div>
+    </div>
+</section>
+
+
+

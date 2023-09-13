@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Aciklama" xml:space="preserve">
+    <value>Elektronik dalında bir mühendislik şirketi olarak 1980 yılında faaliyetlerine başlamış, ilk zamanlarında endüstride çeşitli konularda elektronik sistemler üreterek boy göstermiştir. Geçen süre içerisinde ağırlık ölçme konusuna yoğunlaşmış ve 1987 yılında Esit markasıyla elektronik tartı aletleri üretimine başlamıştır.
+
+Esit, Elektronik tartı aletleri üretiminde Türkiye`de hep ilklere imza atmıştır; 1987 yılında ilk tartı indikatörünü, 1989 yılında ilk yük hücresini, 1991 yılında ilk otomatik tartı aletlerini, 1996 yılında ilk dijital yük hücresini, 2000 yılında hareketli araç tartı sistemlerini, 2006 yılında operatörsüz ve kablosuz sistemler üretmeye başlamıştır. Türkiye`de sektörünün öncülüğünü yapan şirket, yaratıcı mühendislik ve sıkı arge çalışmalarıyla dünyada sadece gelişmiş ülkelerde üretilen tartı alet ve sistemlerini Türkiye`de üretmeyi başarmış, ürünlerini Avrupa`dan aldığı kalite belgeleri ile tescil ettirmiştir.
+
+1998 yılından beri ISO 9000 kalite güvence sistemi altında üretim yapmakta olan şirket, yaptığı ve markaladığı ürünlerin Avrupa birliğinde kabul gördüğü anlamına gelen EU sertifikasına sahiptir. Ürünlerinde EN 45501 belgesinin yanında uluslararası OIML, CE sertifikaları bulunmaktadır.</value>
+  </data>
+  <data name="Aciklama2" xml:space="preserve">
+    <value>Sakarya Hendek`te 30000m2 alanda kurulu fabrikasında taşıt kantarı üretimi yapılmaktadır. İstanbul Alemdağ`daki 32000m2 alanda kurulu fabrikasında ise Yük Hücresi, Elektronik, Çelik Konstrüksiyon, Makina, Metal İşleme, Isıl işlem ve Arge teknik birimleri ile şirketin yönetim ve pazarlama birimleri bulunmaktadır. Fabrikada çalışan sayısı 2011 yılında 270 kişiye ulaşmıştır. Şirketin ana ilkesi kaliteli üretim ve müşteri ihtiyacının yüzde yüz karşılanmasıdır. Hedefi dünya tartı sektöründe teknolojisi ve sürekliliği ile uzun dönem içinde endüstriye hizmet etmektir.
+
+Türkiye`de son kullanıcı ve üreticilere direkt satış yapan şirketin yurt dışında Bulgaristan, Romanya ve Rusya`da kendi ortaklıkları ve çeşitli ülkelerde acenteleri bulunmaktadır. Başarı ölçüsünü yurt dışı satışlara endeksleyen şirketin ihracat oranı %30 un üzerindedir. Esit, tartı aletleri üretimi, geniş mühendislik altyapısı ve tecrübesini bir araya getirerek teknoloji esaslı ağırlık ölçme ve kontrolünde önemli projeleri başarıyla yerine getirmiştir.
+
+1998 yılından beri ISO 9000 kalite güvence sistemi altında üretim yapmakta olan şirket, yaptığı ve markaladığı ürünlerin Avrupa birliğinde kabul gördüğü anlamına gelen EU sertifikasına sahiptir. Ürünlerinde EN 45501 belgesinin yanında uluslararası OIML, CE sertifikaları bulunmaktadır.</value>
+  </data>
+  <data name="AciklamaBaslik" xml:space="preserve">
+    <value>Esit İstanbul Merkez ve Fabrika 1</value>
+  </data>
+  <data name="AciklamaBaslik2" xml:space="preserve">
+    <value>Esit Hendek Fabrika 2</value>
+  </data>
+  <data name="AltBaslik" xml:space="preserve">
+    <value>Bu Sistem Hakkında</value>
+  </data>
+  <data name="AltBaslikAciklama" xml:space="preserve">
+    <value>Bu mikro sitede, Avrupa standartlarında üretilen CE belgeli, yasal metroloji onaylı Esit kantar modellerinden, Esit’in zemin üstü kantarlarından biri olan (çukursuz) Hippo – S model Çelik Platformlu Taşıt kantarı ve zemin altı modeli olan (çukurlu) Dino Çelik Platformlu Kantarına ait tüm teknik bilgiler ve tüm opsiyon bilgileri yer almaktadır.</value>
+  </data>
+  <data name="Bolgelerimiz" xml:space="preserve">
+    <value>Bölgelerimiz</value>
+  </data>
+  <data name="SayfaBaslik" xml:space="preserve">
+    <value>Fabrikalarımız</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Kantar | HAKKIMIZDA | Esit Elektronik Taşıt Kantarı</value>
+  </data>
+  <data name="VideoBaslik" xml:space="preserve">
+    <value>Tanıtım Filmi</value>
+  </data>
+</root>

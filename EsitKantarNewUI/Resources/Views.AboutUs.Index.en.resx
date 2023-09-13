@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Aciklama" xml:space="preserve">
+    <value>Esit electronic started off as an engineering company in 1980,Esit got into the market by making various electronic devices for different industries. As time passed Esits focus increased on the weighing devices and products and thus eventually started building scales in 1987 under the name Esit.
+
+Esit, has always been a pioneer in the weighing industry in Turkey; In 1987 Esit built the first weighing indicator from scratch, in 1989 the first loadcell,in 1991 the first automated weighing system,in 1996 first digital load cell,in 2000 first mobile vehicle scale,and in 2006 the first full automated wireless scale system. As an industry leader in Turkey, creative engineering and importance of R&amp;D are treasured greatly in Esit. Esit has been the only firm in Turkey capable of producing first class weighing products which are certified by the European standards.
+
+Working under the ISO 9000 quality assurance system Esit, has the ability to produce and brand all its products with the EU certificate. Esit has the EN 45501 quality certificate as well as the international OIML, CE certificates in all its products.</value>
+  </data>
+  <data name="Aciklama2" xml:space="preserve">
+    <value>Headquartered in Turkey, Esit has two manufacturing plants, one in Istanbul other in Sakarya area. The Plant in Istanbul Alemdağ takes up 32000m² and produces various products including Load Cells, Electronic Indicators, Steel Construction, Machines, Metal Casting, .Alemdağ plant also hosts the R&amp;D technical units as well as the main offices and sales department. Our plant in Sakarya Hendek takes up 30000m2 and is mainly used for producing Truck Scales. Esit has a total 360 employees in its various departments.
+
+With its wide variety of products offered and size Esit penetrated the European market rapidly, Becoming one of the leaders in the eastern European market as well as the middle east and the western Asia. Esit currently has branches in Turkey, Bulgaria, Romania and Russia.
+
+Working under the ISO 9000 quality assurance system Esit, has the ability to produce and brand all its products with the EU certificate. Esit has the EN 45501 quality certificate as well as the international OIML, CE certificates in all its products.</value>
+  </data>
+  <data name="AciklamaBaslik" xml:space="preserve">
+    <value>Esit İstanbul Centre Factory</value>
+  </data>
+  <data name="AciklamaBaslik2" xml:space="preserve">
+    <value>Esit Hendek Branch</value>
+  </data>
+  <data name="AltBaslik" xml:space="preserve">
+    <value>About This System</value>
+  </data>
+  <data name="AltBaslikAciklama" xml:space="preserve">
+    <value>In this micro site pittles Hippo-S model and pit type Dino model Esit truck scales are explained in-depth with all technical and options details, which are CE certified.</value>
+  </data>
+  <data name="Bolgelerimiz" xml:space="preserve">
+    <value>Our regions</value>
+  </data>
+  <data name="SayfaBaslik" xml:space="preserve">
+    <value>Our Factories</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Kantar | ABOUT US | Esit Elektronik Taşıt Kantarı</value>
+  </data>
+  <data name="VideoBaslik" xml:space="preserve">
+    <value>Promotion Film</value>
+  </data>
+</root>

@@ -1,0 +1,35 @@
+﻿.imgFont{
+    visibility:hidden;
+}
+.HippoImg {
+  padding: 176px 0 569px;
+}
+
+.imgFontTitle {
+    float: right;
+    position: relative;
+    margin-right: 19px;
+    margin-top: -53px;
+    color: black;
+    font-weight:bold;
+}
+
+.liText {
+    width: auto;
+    text-align: left;
+    color: black;
+    font-family: inherit;
+    font-weight: bold;
+}
+.liIcon {
+    font-size: 12px;
+    color: gray;
+    margin-right: 6px;
+}
+
+.rightImg {
+   margin-bottom:7px;
+}
+.rightImgText{
+    text-align:center;
+}

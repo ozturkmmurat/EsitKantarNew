@@ -1,0 +1,88 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+<head>
+    <title>@Localizer["Title"]</title>
+</head>
+<section class="breadcrumbs-custom bg-image context-dark" style="background-image: url(../../Uploads/Images/esit_hakkimizda.jpg);">
+    <div class="container">
+        <h3 style="visibility:hidden;" class="breadcrumbs-custom-title">Contacts</h3>
+        <pre-footer-classic style="visibility:hidden;" class="breadcrumbs-custom-subtitle">View our contacts or write us a message</pre-footer-classic>
+    </div>
+</section>
+<!-- Base typography -->
+<section class="section section-lg bg-default">
+    <div class="container">
+        <h4 style="color:#EF4123;">
+            <i class="fa fa-cogs" aria-hidden="true"></i>
+            @Localizer["SayfaBaslik"]
+        </h4>
+        <div class="row">
+            <div class="col-xl-12">
+                <ul class="list-xl">
+                    <li>
+                        <h5>@Localizer["AltBaslik"]</h5>
+                        <p>@Localizer["AltBaslikAciklama"]</p>
+                    </li>
+                    <li>
+                        <h5> <i class="fa fa-youtube-play"></i>@Localizer["VideoBaslik"]</h5>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe src="https://player.vimeo.com/video/92931053?h=a94495bfba" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </li>
+                    <li class="m-0">
+                        <h5>@Localizer["AciklamaBaslik"]</h5>
+                        <img class="aboutimg" src="~/img/esit-merkez.jpg" />
+                        <p>
+                            @Localizer["Aciklama"]
+                        </p>
+                    </li>
+                    <li>
+                        <h5>
+                            @Localizer["AciklamaBaslik2"]
+                        </h5>
+                        <img class="aboutimg" src="~/img/hendek.jpg" />
+                        <p>
+                            @Localizer["Aciklama2"]
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Unordered List-->
+<section style="margin-top:-4%;" class="section section-lg bg-default ">
+    <div class="container">
+        <h5>@Localizer["Bolgelerimiz"]</h5>
+        <div class="row row-30">
+            <div class="col-md-6 col-xl-3">
+                <ul class="list-marked list-marked-small">
+                    <li>
+                        Esit İstanbul Merkez ve Fabrika 1
+                    </li>
+                    <li>Esit Hendek Fabrika 2</li>
+                    <li>Esit Ankara Bölge</li>
+                    <li>Esit İzmir Bölge</li>
+                    <li>
+                        Esit Adana Bölge
+                    </li>
+                    <li>
+                        Esit Rusya
+
+                    </li>
+                    <li>
+                        Esit Bulgaristan Merkez Ofis
+
+                    </li>
+                    <li>
+                        Esit Bulgaristan Merkez Ofis
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+

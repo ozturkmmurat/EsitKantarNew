@@ -1,0 +1,11 @@
+﻿.box-border-home {
+    min-height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    transition: .3s;
+    padding: 0;
+}
+

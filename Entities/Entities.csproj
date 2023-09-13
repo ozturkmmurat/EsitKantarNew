@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Core">
+      <HintPath>C:\Users\murat.ozturk\source\repos\SportsTracking\Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

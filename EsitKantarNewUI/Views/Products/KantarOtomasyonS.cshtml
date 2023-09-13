@@ -1,0 +1,85 @@
+﻿@model List<Entities.Dto.ProductDetailDto>
+@{
+    ViewData["Title"] = "KantarOtomasyonS";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+<head>
+    <title>@Localizer["Title"]</title>
+</head>
+<a>
+    <section id="hippolYonlendir" class="breadcrumbs-custom bg-image context-dark HippoImg" style="background-image: url(../../Uploads/Images/kantarotoSlider.jpg);">
+        <div class="container">
+
+        </div>
+        <h3 class="breadcrumbs-custom-title imgFont">HİPPO A</h3>
+    </section>
+</a>
+<div>
+    <h3 style="color: #1b1b1b;" class="breadcrumbs-custom-title imgFontTitle">@Localizer["FotografTitle"]</h3>
+</div>
+
+<section class="section section-lg bg-default">
+
+    <div class="container">
+        <div class="row row-40 justify-content-between">
+            <div class="col-lg-8">
+             
+
+            </div>
+            <div class="col-lg-4">
+            </div>
+        </div>
+        <div id="hippol-section" class="col-md-12" style="margin-top:10px; min-height:542px; min-width:300px; margin-left:-15px; text-align:justify;">
+            <article style="padding:0px;" id="giris" class="girisStyle">
+
+                <div style="width:100%; margin:0 auto; margin-bottom:15px;min-height:100px;">
+                    <div style="margin-bottom:15px;min-height:100px; ">
+                        <h1 class="urunbaslikh1">
+                            E-OKS
+                        </h1><br />
+                        <h2 class="urunaciklamah2">@Localizer["AcordionBaslik"]</h2>
+                    </div>
+                </div>
+            </article>
+            <div id="hippol-section" class="col-md-12" style="margin-top:10px; min-height:542px; min-width:300px; margin-left:-15px; text-align:justify;">
+
+                <article style="padding:10px;" id="hlozelliklerr" class="girisStyle">
+                    <table class="table">
+                        <thead>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="row row-40 justify-content-between">
+                                        <div class="row row-30 row-xxl-55" style="margin-bottom:0px;">
+                                            @foreach (var item in Model)
+                                            {
+                                                @if (item.GeneralDescription != null && item.LanguageName == @Thread.CurrentThread.CurrentUICulture.Name)
+                                                {<div class="col-xl-12 " style="margin-bottom:0px;">
+                                                        <a>
+                                                            <p class="imgP">
+                                                                <img class="imgH" src="~/Uploads/Images/@item.ImgLink" />
+                                                            </p>
+                                                        </a>
+
+                                                        <p class="blurb-minimal-exeption ozelliktext">
+                                                            <h5 class="blurb-minimal-title textPosition">
+                                                                @item.GeneralTitle
+                                                            </h5>
+
+                                                        </p>
+                                                        <p class="textPosition">@item.GeneralDescription</p>
+                                                    </div>
+                                                }
+                                            }
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>

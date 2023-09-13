@@ -1,0 +1,58 @@
+﻿
+
+.miniSlider {
+    height: 150px !important;
+    max-height: 150px !important;
+}
+
+@media only screen and (max-width: 990px) {
+    #dLabel {
+        text-align: start;
+    }
+}
+
+.sectionBackground {
+    background-color: #dedede;
+}
+
+.sectionTitleColor {
+    color: black !important;
+}
+
+
+/*SLİDER BÖLÜMÜNÜN CSS KODU*/
+
+.sliderBackgroundDiv {
+    background-image: linear-gradient(to right, rgba(27, 27, 27, 0.2), rgba(27, 27, 27, 0.5));
+    height: 100%;
+    padding: 3% 9%;
+}
+
+.sliderTitle {
+    float: right;
+    font-size: 30px;
+    background: none !important;
+    background-image: none !important;
+    color: #ffffff !important;
+}
+
+.sliderAltBaslik {
+    float: right;
+    color: #ffffff !important;
+    margin-right:-4%;
+}
+
+.sliderAltBaslikA {
+    background: none !important;
+    display: inline-block;
+    padding: 0px !important;
+    text-align: end;
+}
+
+@media only screen and (max-width: 992px) {
+   .sliderAltBaslikA{
+       font-size:20px;
+   }
+
+}
+
